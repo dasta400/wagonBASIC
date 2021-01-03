@@ -46,7 +46,7 @@ Keywords and Built-In Functions documented in the [Wiki](https://github.com/dast
 
 ## Steps to write and *execute* a *Wagon BASIC* program
 
-- Write a program in SEU, that follows the [Wagon BASIC's Dialect specifications](dialectspecifications).
+- Write a program in SEU, that follows the [Wagon BASIC's Dialect specifications](#wagon-basic-dialect-specifications).
 - CALL WBBAS2RPGC with the following parameters (all *CHAR):
   - LIB where the PF-SRC with the BASIC programs is.
   - PF-SRC with the BASIC programs (e.g. QBASSRC).
@@ -70,7 +70,7 @@ Keywords and Built-In Functions documented in the [Wiki](https://github.com/dast
     - Source Entry Utility (SEU), for editing BASIC source files
     - ILE RPG compiler, if you wish to compile the resulting files.
 - **OK, so it is not *Locomotive BASIC*, so which BASIC is it?**
-  - I guess it can be said that it is based on *[Dartmouth BASIC](https://en.wikipedia.org/wiki/Dartmouth_BASIC)*, but heavily modified to adapt to the AS/400 features and to add more *advanced* functions. See the section [Wagon BASIC language](WagonBASIClanguage).
+  - I guess it can be said that it is based on *[Dartmouth BASIC](https://en.wikipedia.org/wiki/Dartmouth_BASIC)*, but heavily modified to adapt to the AS/400 features and to add more *advanced* functions. See the section [Wagon BASIC language](#WagonBASIClanguage).
 
 ---
 
