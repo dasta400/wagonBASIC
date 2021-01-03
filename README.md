@@ -40,6 +40,8 @@ The idea for *Wagon BASIC* came after I found out (thanks to my friend Patrik) t
   - Assignments MUST use the keyword LET (e.g. LET A = B is correct, A = B is not correct). Though the use of LET was dropped very early in BASIC versions, I decided to keep it for simplicity in my script. If every line starts with a keyword, it's easier to parse.
   - All variables MUST be declared (with VAR) at the beginning of the program. For simplicity, I'm just following the RPG order of pages here. It simplifies my REXX script. If variables were declared all over the code, I would have to keep inserting records at the beginning of the generated RPG or do some kind of multi-pass translation. I think it's actually good to have all declarations at the top, as it makes code clearer.
 
+Keywords and Built-In Functions documented in the [Wiki](https://github.com/dasta400/wagonBASIC/wiki) of this repo.
+
 ---
 
 ## Steps to write and *execute* a *Wagon BASIC* program
