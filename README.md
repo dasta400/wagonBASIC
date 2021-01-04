@@ -2,7 +2,7 @@
 
 **Wagon BASIC REXX2RPG4** is a translator of BASIC language into RPG IV (a.k.a. RPGLE). It is mainly a REXX/400 script (though a CLP is used to call it) that converts source code written in BASIC (my own dialect) to RPGLE source code, which then can be compiled on the AS/400.
 
-**DISCLAIMERS**:
+**DISCLAIMER**:
 
 1. This is my first REXX program in 30 years, after my first encounter with ARexx for the Commodore Amiga, so do not expect high quality, super efficient and professional code here. I hope with time and practice I'll get better and I'll be able to improve the code if needed.
 
@@ -80,10 +80,10 @@ This is a non-exhaustive list of feaures I have currently in mind:
 
 - Accept single quotes within PRINT and LET to allow contractions e.g. (there's, ain't).
 - Syntax check before the translation happens.
-- Write a report of the transalation from BASIC to RPGLE to QPRINT (using External Data Queue?).
-- Add more built-in functions (Substring, Concatenate, SELECT CASE, Scan string)
+- ~~Write a report of the transalation from BASIC to RPGLE to QPRINT (using External Data Queue?).~~ done in V0R1M0.
+- Add more built-in functions (SELECT CASE, Scan string)
 - More data types (date, time, timestamp, indicator)?
-- More control flow functions (CASE, SELECT...CASE)
+- More control flow functions (SELECT...CASE)
 - Reading/writting to PF files.
 - Ability to use DSPF for interactive sessions.
 - Write an interpreter that can run simpler (no PF files, no DSPF) but with PRINT and INPUT programs in interactive mode.
@@ -92,5 +92,5 @@ This is a non-exhaustive list of feaures I have currently in mind:
 
 ## Changelog
 
-- **V0R0M0**:
+- **V0R1M0**:
   - Beta release. Proof Of Concept.
